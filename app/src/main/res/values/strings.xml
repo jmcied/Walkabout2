@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Walkabout2</string>
+    <string name="button_addWalk">Add Walk</string>
+    <string name="hint_walkTitle">Walk Title</string>
+    <string name="hint_walkDescription">Description </string>
+    <string name="hint_walkDifficulty">Difficulty </string>
+    <string name="hint_walkTerrain">Terrain </string>
+    <string name="menu_addWalk">Add</string>
+    <string name="menu_cancelWalk">Cancel</string>
+    <string name="enter_walk_title">Please enter a Walk Title</string>
+    <string name="save_walk">Save Walk</string>
+    <string name="button_addImage"> Add Image</string>
+    <string name="select_walk_image">Select image</string>
+    <string name="change_walk_image">Change image </string>
+    <string name="button_location">Set Location</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="menu_deleteWalk">Delete</string>
+    <string name="title_activity_walkabout_maps">Map of All Walks</string>
+
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="beach">Beach</string>
+    <string name="forest">Forest</string>
+    <string name="hill">Hill</string>
+</resources>
