@@ -6,6 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".Walk">
 
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:fitsSystemWindows="true"
+        app:elevation="0dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:titleTextColor="@color/colorPrimary" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
     <EditText
         android:id="@+id/walkTitle"
         android:layout_width="350dp"
@@ -37,10 +57,10 @@
 
     <RadioGroup
         android:id="@+id/radioGroupDifficulty"
-        android:layout_width="150dp"
-        android:layout_height="148dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="184dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/description">
 
@@ -81,11 +101,13 @@
 
     <RadioGroup
         android:id="@+id/radioGroupTerrain"
-        android:layout_width="174dp"
-        android:layout_height="149dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="175dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
         android:paddingStart="20dp"
         android:paddingEnd="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnAdd"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/radioGroupDifficulty"
         app:layout_constraintTop_toBottomOf="@+id/description">
